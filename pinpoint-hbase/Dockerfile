@@ -4,7 +4,7 @@ LABEL maintainer="Roy Kim <roy.kim@navercorp.com>"
 
 ARG PINPOINT_VERSION=${PINPOINT_VERSION:-1.7.3}
 
-ENV HBASE_REPOSITORY=http://apache.mirrors.pair.com/hbase
+ENV HBASE_REPOSITORY=http://mirrors.shu.edu.cn/apache/hbase
 ENV HBASE_SUB_REPOSITORY=http://archive.apache.org/dist/hbase
 
 ENV HBASE_VERSION=1.2.6
